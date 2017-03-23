@@ -20,5 +20,8 @@ Route::controllers([
 	'password' => 'Auth\PasswordController',
 ]);
 
+
 Route::get('ola/{nome}','TestController@index');
 Route::get('notas','TestController@notas');
+
+Route::get('blog','PostsController@index');
